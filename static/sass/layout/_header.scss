@@ -1,0 +1,47 @@
+.header {
+  height: 90vh;
+  background-color: $color-black;
+
+  &__logo {
+    height: 3.5rem;
+    border-radius: 50%;
+  }
+
+  &__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  @media (max-width: 28.75em) {
+    font-size: 55%;
+  }
+
+  /* 650px / 16px = 40.625em */
+  @media (max-width: 40.625em) {
+    width: 100%;
+  }
+}
+
+.aboutme {
+  color: $color-white;
+  position: absolute;
+  top: 40%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  width: 63rem;
+
+  @media (max-width: 61.25em) {
+    width: 60rem;
+    left: 10%;
+  }
+
+  /* 650px / 16px = 40.625em */
+  @media (max-width: 40.625em) {
+    width: 40rem;
+  }
+}

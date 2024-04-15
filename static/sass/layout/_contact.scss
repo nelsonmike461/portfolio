@@ -1,0 +1,47 @@
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 80vh;
+  padding: 0 2rem;
+  background: $color-black;
+  font-family: "Poppins";
+
+  &-header > h2 {
+    font-size: 6rem;
+    color: $color-white;
+
+    @media (max-width: 28.75em) {
+      font-size: 4rem;
+    }
+
+    & > p {
+      font-size: 1.6rem;
+      color: $color-white;
+      font-style: italic;
+    }
+  }
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 980px;
+  margin-top: 5rem;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.contact-details {
+  font-size: 2.4rem;
+  text-shadow: 1px 1px 1px #fdfdfd;
+  transition: transform 0.3s ease-out;
+
+  &:hover {
+    transform: translateY(8px);
+  }
+}

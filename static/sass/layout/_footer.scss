@@ -1,0 +1,32 @@
+.footer {
+  font-size: 1.6rem;
+  font-weight: 300;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: $color-dark-bronze;
+  border-top: 4px solid $color-medium-yellow;
+
+  & > p {
+    margin: 2rem;
+  }
+
+  & i {
+    vertical-align: middle;
+  }
+
+  &__list {
+    display: flex;
+    list-style: none;
+    font-size: 1.6rem;
+    gap: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  @media (max-width: 28.75em) {
+    flex-direction: column;
+    text-align: center;
+  }
+}

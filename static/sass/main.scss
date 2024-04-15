@@ -1,0 +1,22 @@
+// Utils
+@import "utils/functions";
+@import "utils/mixins";
+@import "utils/variables";
+
+// Base
+@import "base/animation";
+@import "base/base";
+@import "base/typography";
+
+// Layout
+@import "layout/grid";
+@import "layout/header";
+@import "layout/footer";
+@import "layout/projects";
+@import "layout/contact";
+
+// Components
+@import "components/buttons";
+@import "components/navbar";
+
+// sass static\sass\main.scss to static\css\style.css.

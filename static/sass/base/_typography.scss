@@ -1,0 +1,54 @@
+.heading-primary {
+  color: $color-white;
+  text-transform: uppercase;
+
+  backface-visibility: hidden;
+  margin-bottom: 4rem;
+
+  &--main {
+    display: block;
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: 0.8rem;
+    width: 77rem;
+
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    margin-bottom: 3rem;
+    margin-top: 6rem;
+
+    @media (max-width: 61.25em) {
+      font-size: 3.5rem;
+      margin-bottom: 2rem;
+      width: 70rem;
+    }
+
+    @media (max-width: 40.625em) {
+      font-size: 3rem;
+    }
+  }
+
+  &--highlight {
+    color: $color-light-yellow;
+  }
+
+  &--sub {
+    display: block;
+    font-size: 2.8rem;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 0.3rem;
+    animation: moveInRight 1s ease-out;
+    background-color: $color-bronze;
+    color: $color-black;
+
+    @media (max-width: 61.25em) {
+      font-size: 2.2rem;
+    }
+
+    @media (max-width: 40.625em) {
+      font-size: 1.8rem;
+    }
+  }
+}
