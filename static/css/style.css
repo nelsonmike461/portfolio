@@ -230,6 +230,7 @@ ul {
   display: flex;
   list-style: none;
   font-size: 1.6rem;
+  font-weight: 500;
   gap: 3rem;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -337,7 +338,7 @@ ul {
 
 .contact-details {
   font-size: 2.4rem;
-  text-shadow: 1px 1px 1px #fdfdfd;
+  text-shadow: 0.5px 0.5px 1px #fdfdfd;
   transition: transform 0.3s ease-out;
 }
 .contact-details:hover {
