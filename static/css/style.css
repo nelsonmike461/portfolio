@@ -202,17 +202,11 @@ ul {
   font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
   width: 63rem;
-  /* 650px / 16px = 40.625em */
 }
 @media (max-width: 61.25em) {
   .aboutme {
     width: 60rem;
     left: 10%;
-  }
-}
-@media (max-width: 40.625em) {
-  .aboutme {
-    width: 40rem;
   }
 }
 
