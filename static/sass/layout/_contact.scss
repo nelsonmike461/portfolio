@@ -10,15 +10,17 @@
   background: $color-black;
   font-family: "Poppins";
 
-  &-header > h2 {
-    font-size: 6rem;
-    color: $color-white;
+  &-header {
+    > h2 {
+      font-size: 6rem;
+      color: $color-white;
 
-    @media (max-width: 28.75em) {
-      font-size: 4rem;
+      @media (max-width: 28.75em) {
+        font-size: 4rem;
+      }
     }
 
-    & > p {
+    > p {
       font-size: 1.6rem;
       color: $color-white;
       font-style: italic;
