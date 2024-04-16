@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       headerText.textContent = "Hey I'am Nelson Michael"; // Restore original header text
       headerSubText.textContent = "A Web Developer";
-      headerButton.textContent = "Download";
+      headerButton.textContent = "Resume";
 
       document.getElementById("header").scrollIntoView({ behavior: "smooth" });
 

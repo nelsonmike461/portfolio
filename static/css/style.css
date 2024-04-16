@@ -206,7 +206,12 @@ ul {
 @media (max-width: 61.25em) {
   .aboutme {
     width: 63rem;
-    left: 10%;
+    left: 16%;
+  }
+}
+@media (max-width: 28.75em) {
+  .aboutme {
+    left: 14%;
   }
 }
 
