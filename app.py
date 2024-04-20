@@ -7,7 +7,7 @@ def home():
     return render_template('index.html')
 
 
-@app.route('/download-resume')
+@app.route('/download')
 def download_resume():
     try:
         return send_file('static/files/nelson.docx', as_attachment=True)
